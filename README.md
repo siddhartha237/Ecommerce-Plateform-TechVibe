@@ -63,30 +63,35 @@
 
 techvibe/
 │
-├── instance/              # Instance folder for configuration and database
-│   └── database.db        # Database file
+├── instance/                 # Instance folder for configuration and database
+│   └── database.db           # Database file
 │
-├── market/
-│   ├── __init__.py        # App setup and config
-│   ├── routes.py          # All application routes
-│   ├── models.py          # SQLAlchemy models (User, Item)
-│   ├── forms.py           # Flask-WTF forms (Registration, Login, Purchase, Sell)
-│   ├── templates/         # HTML templates
-│   │   ├── base.html      # Base template for the site
-│   │   ├── home.html      # Home page template
-│   │   ├── market.html    # Market page template
-│   │   ├── login.html     # Login form
-│   │   ├── register.html  # Registration form
-│   │   └── includes/      # Includes for reusable components
-│   │       ├── item_modals.html        # Modals for item details
-│   │       └── owned_items_modals.html  # Modals for owned items
-│   └── static/            # Static files (CSS, images)
+├── market/                   # Application folder
+│   ├── __init__.py           # App setup and configuration
+│   ├── routes.py             # All application routes
+│   ├── models.py             # SQLAlchemy models (User, Item)
+│   ├── forms.py              # Flask-WTF forms (Registration, Login, Purchase, Sell)
 │
-├── venv/                  # Virtual environment folder
+├── templates/                # HTML templates
+│   ├── base.html             # Base template for the site
+│   ├── home.html             # Home page template
+│   ├── market.html           # Market page template
+│   ├── login.html            # Login form
+│   ├── register.html         # Registration form
+│   ├── includes/             # Includes for reusable components
+│       ├── item_modals.html  # Modals for item details
+│       └── owned_items_modals.html # Modals for owned items
 │
-├── requirements.txt       # Python dependencies
-├── run.py                 # Script to run the application
-└── README.md              # Project documentation
+├── static/                   # Static files (CSS, images)
+│
+├── venv/                     # Virtual environment folder
+│
+├── requirements.txt          # Python dependencies
+│
+├── run.py                    # Script to run the application
+│
+└── README.md                 # Project documentation
+
 
 
 
