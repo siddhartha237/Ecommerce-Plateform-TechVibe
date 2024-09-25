@@ -78,7 +78,6 @@ techvibe/
 │   │   ├── login.html     # Login form
 │   │   └── register.html  # Registration form
 │   └── static/            # Static files (CSS, images)
-├── migrations/            # Database migrations
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 ```
