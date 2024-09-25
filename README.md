@@ -95,13 +95,4 @@ techvibe/
 
 Feedback messages for user actions such as successful login, purchase completion, insufficient funds, etc.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Push to your fork and submit a pull request.
-
 ---
-
-Feel free to customize this README as per your project needs!
