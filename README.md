@@ -1,7 +1,5 @@
 # TechVibe-Flask-App
 
-# TechVibe - README
-
 ## Overview
 
 **TechVibe** is a Flask-based web application designed as a marketplace for buying and selling electronics. It allows users to register, log in, view available items, purchase items, and sell them back to the marketplace. The app uses Flask for backend development, SQLAlchemy for database interactions, Jinja2 for templating, and Bootstrap for a responsive front-end design.
