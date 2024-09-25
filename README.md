@@ -60,7 +60,7 @@
 6. Visit the app at: `http://127.0.0.1:5000/`
 
 ## Folder Structure
-
+```
 techvibe/
 │
 ├── instance/                 # Instance folder for configuration and database
@@ -91,7 +91,7 @@ techvibe/
 ├── run.py                    # Script to run the application
 │
 └── README.md                 # Project documentation
-
+```
 
 
 
